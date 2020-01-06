@@ -3,15 +3,14 @@
 namespace App;
 use Illuminate\Database\Eloquent\Model;
 
-Class Parkiran extends Model 
-
+Class Performance extends Model 
 {
-    protected $table = 'parkir';
+    protected $table = 'performance';
     protected $fillable = [
-        'id_reservasi','jenis_parkiran'
+        'id_rata'
     ];
     protected $hidden = [
-        'id_reservasi',
+        'id_rata',
     ];
 
 }
