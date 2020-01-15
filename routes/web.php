@@ -16,4 +16,5 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
     $router->post('/login', 'AuthController@login');
     $router->get('/get-all-parkiran','ParkiranController@allParkiran');
     $router->get('/get-performance','PerformanceController@getPerformance');
+    $router->get('/get-data-olahan','OlahanController@index');
  });
